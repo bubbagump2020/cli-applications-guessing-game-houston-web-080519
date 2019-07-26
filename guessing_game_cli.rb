@@ -7,7 +7,7 @@ def run_guessing_game
   # when random number and user_input are equal ask for user_input again
   # when user_input is equal to "exit" break the loop and exit the program
  
-  loop do
+
     puts "Guess a number between 1 and 6."
     user_input = gets.chomp
     random_number = rand(1..6)
@@ -19,5 +19,4 @@ def run_guessing_game
     else
       puts "The computer guessed #{random_number}"
     end
-  end
 end
